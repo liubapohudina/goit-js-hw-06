@@ -8,12 +8,19 @@ const ingredients = [
 ];
 
 const ul = document.querySelector('#ingredients')
-for (let i = ingredients.length-1; i >= 0; i --) {
-    const firstItem = document.createElement('li');
-    firstItem.textContent = ingredients[i];
+//for (let i = ingredients.length-1; i >= 0; i --) {
+    //const firstItem = document.createElement('li');
+    //firstItem.textContent = ingredients[i];
+    //firstItem.className = 'item'
+   // ul.prepend(firstItem);
+//}
+ingredients.forEach(function (item) {
+  const firstItem = document.createElement('li');
+    firstItem.textContent = item;
     firstItem.className = 'item'
-    ul.prepend(firstItem);
-}
+    ul.append(firstItem);
+
+})
 
 console.log(ul)
 
