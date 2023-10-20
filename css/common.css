@@ -30,3 +30,7 @@ ul.gallery {
 img {
   max-width: 100%;
 }
+.box {
+  width: 30px;
+  height: 30px;
+}
