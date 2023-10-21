@@ -23,7 +23,7 @@ button {
   cursor: pointer;
 }
 .img-item {
-flex-basis: calc((100% - 20px) /3);
+flex-basis: calc((100% - 40px) /3);
 }
 ul.gallery {
   list-style: none;
