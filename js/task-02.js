@@ -14,13 +14,14 @@ const ul = document.querySelector('#ingredients')
     //firstItem.className = 'item'
    // ul.prepend(firstItem);
 //}
+const list = []
 ingredients.forEach(function (item) {
   const firstItem = document.createElement('li');
     firstItem.textContent = item;
     firstItem.className = 'item'
-    ul.append(firstItem);
+    list.push(firstItem);
 
 })
-
+ul.append(...list)
 console.log(ul)
 
