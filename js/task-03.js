@@ -13,7 +13,7 @@ const images = [
   },
 ];
 const ulGallery = document.querySelector('.gallery');
-const listImg = images.map((image) => `<li class="img-item"><img width="700" height= "400" src="${image.url}" alt="${image.alt}"></li>`)
+const listImg = images.map((image) => `<li class="img-item"><img  height= "400" src="${image.url}" alt="${image.alt}"></li>`)
   .join('');
 ulGallery.insertAdjacentHTML('afterbegin', listImg)
 //images.forEach(function (image) {
