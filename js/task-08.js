@@ -10,6 +10,8 @@ function handleSubmit(event) {
         //const addEmail = email.value
         //const addPassword = password.value
         //console.log(addEmail, addPassword)
+        //const result = { email: email.value, password: password.value }
+        //сonsole.log(result)
         console.log({
             email: email.value,
             password: password.value
